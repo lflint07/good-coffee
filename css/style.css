@@ -1,0 +1,78 @@
+body{
+	background-color: #a2ded0;
+	color: #323232;
+}
+
+.jumbotron {
+	background-image: url('../img/coffee-header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachement: fixed;
+	background-position: center -150px;
+	padding: 20%;
+	margin-top: -40px;
+}
+
+.jumbotron h1 {
+	color: #f7fafe;
+	position: absolute;
+	left: 20px;
+	top: 18;
+	padding-left: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+
+
+}
+
+.mission {
+	background-color: #323232;
+	color: #f7fafe;
+	margin-top: 30px;
+}
+
+.mission h3 {
+	font-family: 'Raleway', sans-serif;
+	padding: 5% 10%;
+	text-align: center;
+	position: center;
+	font-size: 1.5em;
+	margin-top: -5px;
+	font-weight: normal;
+}
+
+.features {
+	padding: 5% 0;
+}
+
+.features p {
+	font-family: "Muli", sans-serif;
+	text-align: center;
+	color: #323232;
+	font-size: 1.2 em;
+	padding-top: 10px;
+}
+
+footer {
+	background-color: #d64541;
+	position: absolute;
+	width: 100%;
+
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 2%;
+	float: right;
+}
+
+footer p {
+	float: left;
+	padding: 2%;
+}
+
+footer a, footer p {
+	color: #f7fafe;
+	vertical-align: middle;
+}
